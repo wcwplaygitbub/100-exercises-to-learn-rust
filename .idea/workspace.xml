@@ -9,15 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f68b469d-3844-46d6-9c6b-616e54aa94fb" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/01_intro/00_welcome/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_intro/00_welcome/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/01_intro/01_syntax/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_intro/01_syntax/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/06_while/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;language.rust&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cargo.Test lib::tests (1)">
+  <component name="RunManager" selected="Cargo.Test lib::tests (2)">
     <configuration name="Test lib::tests (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package while_ --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -82,8 +74,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test lib::tests (3)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package variables --lib tests" />
+    <configuration name="Test lib::tests (2)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package for_ --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -152,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test lib::tests (2)" />
         <item itemvalue="Cargo.Test lib::tests (1)" />
         <item itemvalue="Cargo.Test lib::tests" />
         <item itemvalue="Cargo.Test lib::tests (5)" />
         <item itemvalue="Cargo.Test lib::tests (4)" />
-        <item itemvalue="Cargo.Test lib::tests (3)" />
       </list>
     </recent_temporary>
   </component>
