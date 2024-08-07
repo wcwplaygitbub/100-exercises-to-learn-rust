@@ -9,7 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f68b469d-3844-46d6-9c6b-616e54aa94fb" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_basic_calculator/07_for/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Cargo.Build `Test lib::tests (3)`.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Test lib::tests (1).executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Test lib::tests (2).executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Test lib::tests (3).executor&quot;: &quot;Run&quot;,
@@ -56,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;language.rust&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cargo.Test lib::tests (2)">
+  <component name="RunManager" selected="Cargo.Test tests::twentieth">
     <configuration name="Test lib::tests (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package while_ --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -91,8 +92,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test lib::tests (4)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package if_else --lib tests" />
+    <configuration name="Test lib::tests (3)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package overflow --lib tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -142,13 +143,38 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test tests::twentieth" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --package overflow --lib tests::twentieth -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Test tests::twentieth" />
+      <item itemvalue="Cargo.Test lib::tests" />
+      <item itemvalue="Cargo.Test lib::tests (1)" />
+      <item itemvalue="Cargo.Test lib::tests (2)" />
+      <item itemvalue="Cargo.Test lib::tests (3)" />
+      <item itemvalue="Cargo.Test lib::tests (5)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test lib::tests (3)" />
         <item itemvalue="Cargo.Test lib::tests (2)" />
         <item itemvalue="Cargo.Test lib::tests (1)" />
         <item itemvalue="Cargo.Test lib::tests" />
         <item itemvalue="Cargo.Test lib::tests (5)" />
-        <item itemvalue="Cargo.Test lib::tests (4)" />
       </list>
     </recent_temporary>
   </component>
