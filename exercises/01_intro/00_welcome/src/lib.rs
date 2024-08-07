@@ -17,7 +17,11 @@
 // You can also find solutions to all exercises in the `solutions` git branch.
 fn greeting() -> &'static str {
     // TODO: fix me 👇
-    "I'm ready to __!"
+    // 第一种 不写 return  直接最后一行是表达式就可以, 注意最后如果省略 return 直接用表达式返回的话 表达式后面不能加分号
+    // "I'm ready to learn Rust!"; error！！！！
+    "I'm ready to learn Rust!"
+    // 第二种 加 return
+    // return  "I'm ready to learn Rust!";这个后面可以加分号。 一般省略分号是常见的。
 }
 
 // Your solutions will be automatically verified by a set of tests.

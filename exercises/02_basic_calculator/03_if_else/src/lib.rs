@@ -1,6 +1,12 @@
 /// Return `true` if `n` is even, `false` otherwise.
 fn is_even(n: u32) -> bool {
-    todo!()
+    // todo!()
+    // if/else 是一个表达式，不是语句所有每个块里面最后一行不能有分号；
+    if n % 2 == 0{
+        true
+    }else {
+        false
+    }
 }
 
 #[cfg(test)]
